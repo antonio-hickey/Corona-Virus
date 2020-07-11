@@ -27,7 +27,7 @@ Deaths = Target_Data[1].text # x Daily Deaths
 # Defining x date
 date_string = datetime.datetime.now().strftime("%Y-%m-%d")
 #------------------------------------------------------------------------------------------------------------------------------
-# Shapping Dataset
+# Shaping Dataset
 Data = (date_string, Cases, Deaths) # 1,2,3
                                     # 4,5,6
 #-----------------------------------------------------------------------------------------------------------------------------
